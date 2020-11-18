@@ -25,4 +25,6 @@ Thus the model shows the SWITCH LIKE RESPONSE of NRT1.1 in the face of wide rang
 
 REFERENCES:
 
-Rashid, M. et al. (2019) Feedforward control of plant nitrate transporter NRT1.1 biphasic adaptive activity. Biophysical Journal....
+1.   Rashid, M. et al. (2019) Feedforward control of plant nitrate transporter NRT1.1 biphasic adaptive activity. Biophysical Journal, 118: 898-908.    doi.org/10.1016/j.bpj.2019.10.018
+
+2.   Ho, C.H., S.H. Lin, H.C. Hu, Y.F. Tsay (2009). CHL1 functions as a nitrate sensor in plants. Cell 138:1184–1194
