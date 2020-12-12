@@ -6,27 +6,17 @@ clear all;
 clc;             
 %format short;
 tspan = 0:0.05:400;
-x0 = [0.3 0.01 0.01];     
+x0 = initial conditions;     
 
 %RATE C01ONSTANTS(must be all positive)
-a1=0.02;    %%check at 0.001,0.002     
-a2=0.1;      %%check at 0.01       
-a3=0.1;      %%check at 0.01,1      
-b1=0;  
-b2=0.1;            %%check at 0.01,0.5      
-b3=0.3;       %%check at 0.1,1 
+a1;a2;a3;b1;b2;b3;       
 %fprintf('par a1=%f\n para a2=%f\n par a3=%f\n para b1=%f\n para b2=%f\n par b3=%f\n' ,a1, a2, a3, b1, b2, b3)
 
-%AFFINITY PARAMETERS(MICHAELIS_CONSTANTS)and Hill Coefficient 
-k1 =0.15; %0.05;        %%check at 2.5                 
-k11=0.1;  %0.1;                         
-k12=0.1;         %%check at 2.5                  
-k2 =0.3; 
-h1 =0.5;
-h2 =2.6;          
+%PARAMETERS(MICHAELIS_CONSTANTS)and Hill Coefficient 
+k1;k11;k12; k2;h1;h2;          
 %fprintf('par k1=%f\n par k11=%f\n par kr12=%f\n par k2=%f\n par h1=%f\n par h2=%f\n', k1, k11, k12, k2, h1, h2)
 
-eps=0.02; %dummy index setting  
+eps=eucledian distance; %dummy index setting  
     
 %PHASE-I
 instepA1=linspace(0.1,25,100);  %% As per Cell paper, low nitrate conc. is 0.2 mM, while...
